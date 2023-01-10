@@ -1,0 +1,39 @@
+span {
+    background-color: yellow;
+    display: inline-block;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 8px solid orange;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+.head {
+    border: 2px solid red;
+    color: red;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 380px;
+    padding-right: 380px;
+
+    
+}
+
+.body {
+    margin-bottom: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.body th {
+    border: 2px solid black;
+}
+ .body td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+ }
