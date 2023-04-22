@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="post" action="" enctype="multipart/form-data">
+        {{form.hidden_tag()}}
+
+        {{ form.title.label }}
+        {{ form.title() }}
+
+        {{ form.release.label }}
+        {{ form.release() }}
+
+        {{ form.created_in_country.label }}
+        {{ form.created_in_country() }}
+
+        {{ form.available_in_countries.label }}
+        {{ form.available_in_countries() }}
+
+        {{ form.category.label }}
+        {{ form.category() }}
+
+
+        {{ form.submit() }}
+    </form>
+
+</body>
+</html>

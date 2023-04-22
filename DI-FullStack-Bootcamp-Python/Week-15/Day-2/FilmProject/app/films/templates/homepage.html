@@ -1,0 +1,11 @@
+{% extends "partials/base.html" %}
+
+{% block title %}Homepage{% endblock %}
+
+{% block app_content %}
+    {% for director in directors %}
+        {{director.first_name}}
+    <br>
+        {{director.last_name}}
+    {% endfor %}
+{% endblock %}
